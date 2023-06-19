@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
   }
   
   body{
@@ -12,7 +12,7 @@
   
   .menu-title{
     text-align: center;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
   }
   
   .container{
@@ -23,10 +23,10 @@
   
   .section{
     position: relative;
-    top: 0;
+    top: 0px;
     background-color:#999999;
-    margin: 15px;
-    padding: 25px;
+    margin: 10px;
+    padding: 20px;
     border: 1px solid #000;
   }
   
@@ -57,8 +57,7 @@
     background-color: #E5D198;
   }
   
-  /* Simple Responsive Framework. */
-  /*------ Desktop ------*/
+  /* Desktop*/
   @media (min-width: 992px){
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;  
@@ -103,7 +102,7 @@
   }
   
   
-  /*------ Tablet ------*/
+  /*Tablet*/
   @media (min-width: 768px) and (max-width: 991px){
     .col-lg-4{
       width: 50%;
@@ -116,7 +115,7 @@
   }
   
   
-  /*------ Mobile ------*/
+  /*Mobile*/
   @media (max-width: 767px){
     .col-lg-4{
       width: 100%;
